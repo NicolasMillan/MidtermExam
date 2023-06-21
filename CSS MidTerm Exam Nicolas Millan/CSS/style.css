@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 { /* Element selector */
+    font-family: 'Lobster', cursive; /* Font Family */
+}
+
+h2 {
+    font-family: 'Lobster', cursive; /* Font Family */
+}
+
+h3 {
+    font-family: 'Lobster', cursive; /* Font Family */
+}
+
+article{
+    padding: 2em 3em 0 3em;
+}
+
+div.wrapper { /* Class selector */
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto; /* Center the div horizontally */
+    background-color: burlywood;
+}
+
+p, table{
+    font-family: 'Lobster', cursive;
+    font-size: 1em; /* Relative Unit*/
+}
+img { /* Making the IMG responsive */
+    width: 100%;
+    height: auto;
+}
+main footer{ /* Combinator selector */
+    background-color: #333;
+    color: #fff;
+    padding: 3em 0 3em 3em;
+    position: sticky;
+}
